@@ -8,6 +8,9 @@ class Racional
 private:
 	int numerador, denominador;
 
+	void simplificar(void);
+	int obtenerMayor(void);
+
 public:
 	Racional(void);
 	Racional(int, int);
@@ -17,6 +20,11 @@ public:
 	
 	void setNumerador(int);
 	void setDenominador(int);
+
+	int getNumerador(void);
+	int getDenominador(void);
+
+	Racional suma(Racional);
 };
 
 #endif

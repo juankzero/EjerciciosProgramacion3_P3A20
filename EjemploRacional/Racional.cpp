@@ -15,6 +15,8 @@ Racional::Racional(int _numerador, int _denominador)
 {
 	setNumerador(_numerador);
 	setDenominador(_denominador);
+
+	simplificar();
 }
 
 void Racional::setNumerador(int _numerador) 
@@ -65,4 +67,53 @@ void Racional::imprimirRacional(void)
 	}
 
 	cout << "Forma Racional { " << this->numerador << "/" << this->denominador << " }\n";
+}
+
+void Racional::simplificar(void) 
+{
+	int mayor = obtenerMayor();
+
+	for (int i = 2; i <= mayor; i++) 
+	{
+		if (numerador % i == 0 && denominador % i == 0)
+		{
+			numerador /= i;
+			denominador /= i;
+
+			i = 1;
+		}
+	}
+
+}
+
+int Racional::obtenerMayor(void)
+{
+	return numerador > denominador ? numerador : denominador;
+}
+
+int Racional::getDenominador(void) 
+{
+	return this->denominador;
+}
+
+int Racional::getNumerador(void) 
+{
+	return this->numerador;
+}
+
+Racional Racional::suma(Racional r2) 
+{
+	if (this->denominador == r2.getDenominador())
+	{
+		return Racional(this->numerador + r2.getNumerador(), this->denominador);
+	}
+
+	int num;//nuevo numerador
+	int den;//nuevo denominador
+
+	num = (this->denominador * r2.getNumerador()) + (r2.getDenominador() * this->numerador);
+	den = this->denominador * r2.getDenominador();
+	
+	return Racional(num, den);
+
 }
