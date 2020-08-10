@@ -23,6 +23,8 @@ public:
 
 	int obtenerDecimal();
 
+	Byte operator~(void);
+
 };
 
 #endif

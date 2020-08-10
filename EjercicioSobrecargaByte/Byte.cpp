@@ -130,3 +130,16 @@ int Byte::obtenerDecimal()
 	return resultado;
 
 }
+
+Byte Byte::operator~(void) 
+{
+	Byte nuevo;
+
+	for (int i = 8 - 1; i >= 0; i--) 
+	{
+		nuevo.bits[i] = this->bits[i] == 1 ? 0 : 1;
+	}
+
+	return nuevo;
+
+}

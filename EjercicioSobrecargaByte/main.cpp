@@ -16,7 +16,11 @@ int main()
 	Byte b3 = b1 + b2;
 
 	cout << "b1 + b2 = " << b3;
-	cout << "Valor Decimal b3 = " << b3.obtenerDecimal();
+	cout << "Valor Decimal b3 = " << b3.obtenerDecimal() << "\n";
+
+	Byte b4 = ~b1;
+
+	cout << "~b1 = " << b4;
 
 	_getch();
 }
