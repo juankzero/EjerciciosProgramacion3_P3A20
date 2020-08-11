@@ -138,11 +138,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AgenteVenta.cpp" />
     <ClCompile Include="Empleado.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Persona.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AgenteVenta.h" />
     <ClInclude Include="Empleado.h" />
     <ClInclude Include="Persona.h" />
   </ItemGroup>

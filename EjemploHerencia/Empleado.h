@@ -7,7 +7,7 @@
 
 class Empleado : public Persona 
 {
-private:
+protected:
 	int codigo;
 	float salario;
 	string departamento;
