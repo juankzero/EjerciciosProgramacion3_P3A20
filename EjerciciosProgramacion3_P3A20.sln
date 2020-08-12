@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Semana4", "Semana4", "{E8D3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploHerencia", "EjemploHerencia\EjemploHerencia.vcxproj", "{589B2C81-A39D-4473-97FD-B139B8CBFD80}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjemploPolimorfismo", "EjemploPolimorfismo\EjemploPolimorfismo.vcxproj", "{3E008CC3-11B1-4317-8FF2-5408F8BDE11D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -99,6 +101,14 @@ Global
 		{589B2C81-A39D-4473-97FD-B139B8CBFD80}.Release|x64.Build.0 = Release|x64
 		{589B2C81-A39D-4473-97FD-B139B8CBFD80}.Release|x86.ActiveCfg = Release|Win32
 		{589B2C81-A39D-4473-97FD-B139B8CBFD80}.Release|x86.Build.0 = Release|Win32
+		{3E008CC3-11B1-4317-8FF2-5408F8BDE11D}.Debug|x64.ActiveCfg = Debug|x64
+		{3E008CC3-11B1-4317-8FF2-5408F8BDE11D}.Debug|x64.Build.0 = Debug|x64
+		{3E008CC3-11B1-4317-8FF2-5408F8BDE11D}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E008CC3-11B1-4317-8FF2-5408F8BDE11D}.Debug|x86.Build.0 = Debug|Win32
+		{3E008CC3-11B1-4317-8FF2-5408F8BDE11D}.Release|x64.ActiveCfg = Release|x64
+		{3E008CC3-11B1-4317-8FF2-5408F8BDE11D}.Release|x64.Build.0 = Release|x64
+		{3E008CC3-11B1-4317-8FF2-5408F8BDE11D}.Release|x86.ActiveCfg = Release|Win32
+		{3E008CC3-11B1-4317-8FF2-5408F8BDE11D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +122,7 @@ Global
 		{E4CEE7F5-8F68-4371-A409-0ABB361A2F0C} = {CF8102CB-C901-4391-90B1-29E6F2558582}
 		{51FC250E-632B-4AE4-8490-06FC5483FBA1} = {CF8102CB-C901-4391-90B1-29E6F2558582}
 		{589B2C81-A39D-4473-97FD-B139B8CBFD80} = {E8D32BC1-6E44-48DB-B583-FD396328651F}
+		{3E008CC3-11B1-4317-8FF2-5408F8BDE11D} = {E8D32BC1-6E44-48DB-B583-FD396328651F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35AACB25-9C10-4B5D-83D7-6084D29B2008}
