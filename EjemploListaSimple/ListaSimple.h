@@ -18,6 +18,10 @@ public:
 	bool estaVacia();
 	void imprimir();
 
+	void eliminar(int);
+	void eliminarEnPosicion(int);
+	int cantidadElementos();
+
 };
 
 #endif // !LISTA_SIMPLE_H
